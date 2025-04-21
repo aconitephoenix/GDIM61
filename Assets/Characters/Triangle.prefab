@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5394816599516433715}
   - component: {fileID: 5469779448365223490}
   - component: {fileID: 3724969222404802656}
+  - component: {fileID: 6831852229886779874}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Player
@@ -245,3 +246,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoints: []
   teleportKey: 113
+--- !u!95 &6831852229886779874
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633370305967772840}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be5a0e5c1562b044f8ad13dc5b8226b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
